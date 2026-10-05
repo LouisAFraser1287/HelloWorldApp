@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/ubi8/nodejs-22 AS build
-WORKDIR /app
+WORKDIR /opt/app-root/src
 COPY package*.json ./
 RUN npm ci
 COPY . .
