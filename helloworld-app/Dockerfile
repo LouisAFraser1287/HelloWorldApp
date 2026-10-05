@@ -1,11 +1,11 @@
-FROM ://redhat.com AS build
+FROM registry.access.redhat.com/ubi8/nodejs-22 AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM registry.access.redhat.com/ubi9/nginx-122
+FROM registry.access.redhat.com/ubi8/nginx-120
 COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
