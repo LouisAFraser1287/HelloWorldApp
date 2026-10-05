@@ -1,0 +1,66 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  background-color: #3d1a1a;
+  margin: auto;
+  padding: auto;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.page{
+  height: 100vh;
+  background-color: grey;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  min-width: 30%;
+  min-height: 90vh;
+  justify-content: center;
+  margin: auto;
+  
+  border-radius: 15px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  min-height: 20vh;
+  border: 1px solid #070707;
+  border-radius: 15px;
+  margin: auto;
+  background-color: rgb(71, 71, 185);
+}
+
+.login-form input {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid black;
+  min-width: 15%;
+  margin: 20px auto;
+}
+
