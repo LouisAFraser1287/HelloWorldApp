@@ -1,2 +1,2 @@
-Simple web app to test deployment into OpenShift Devspaces
-Push button to send message in teams
+Simple web app to test deployment into OpenShift DevSpaces.
+Push button to send myself a message in teams.
