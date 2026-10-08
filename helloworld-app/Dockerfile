@@ -16,4 +16,4 @@ COPY --from=build /opt/app-root/src/build /opt/app-root/src
 
 EXPOSE 8080
 
-
+CMD ["nginx", "-g", "daemon off;"]
