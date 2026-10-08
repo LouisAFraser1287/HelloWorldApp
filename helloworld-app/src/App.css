@@ -19,7 +19,7 @@ body{
   background-color: grey;
 }
 
-.login-container {
+.msg-container {
   display: flex;
   flex-direction: column;
   max-width: 40%;
@@ -32,7 +32,7 @@ body{
   text-align: center;
 }
 
-.login-form {
+.msg-box {
   display: flex;
   flex-direction: column;
   min-width: 40%;
@@ -40,27 +40,19 @@ body{
   border: 1px solid #070707;
   border-radius: 15px;
   margin: auto;
-  background-color: rgb(71, 71, 185);
+  background-color: rgb(133, 133, 212);
 }
 
-.login-form input {
-  display: flex;
-  flex-direction:  column;
-  justify-content: center;
-  margin: auto;
-  max-width: 70%;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 5px;
 
-}
 
 
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #c6dac7; /* Green */
   border: 1px solid black;
-  min-width: 15%;
+  border-radius: 5px;
+  min-width: 25%;
+  min-height: 40px;
   margin: 20px auto;
 }
 

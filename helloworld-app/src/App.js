@@ -4,17 +4,17 @@ function App() {
 
 const sendTeams = () => {
     const user = "louis.fraser@gov.bc.ca";  
-    const msg = " Test button, Hello from the web app!";
+    const msg = " Test message!";
     window.open(`https://teams.microsoft.com/l/chat/0/0?users=${user}&message=${msg}`);
 }
 
 return (
     <div className="page"> 
-        <div className="login-container">
-            <form className="login-form">
-                <input type="username" id="Username" placeholder="Username" />
-                <input type="password" id="Password" placeholder="Password" /> 
-                <button type="submit" onClick={sendTeams}>Login</button>
+        <div className="msg-container">
+            <form className="msg-box">
+                <h1> Send me a message in teams</h1>
+                <h2> Button redirects you to open teams</h2>
+                <button type="submit" onClick={sendTeams}>Send message</button>
             </form>
         </div>
 
